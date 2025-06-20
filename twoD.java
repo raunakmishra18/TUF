@@ -11,11 +11,12 @@ public class twoD {
             }
         }
         for(int i=0;i<arr.length;i++){
-            for(int col=0;col<arr[i].length;col++){
-                // arr[i][col]=sc.nextInt();
-                System.out.print(arr[i][col] +" ");
-            }
-            System.out.println();
+            System.out.println(Arrays.toString(arr[i]));
+            // for(int col=0;col<arr[i].length;col++){
+            //     // arr[i][col]=sc.nextInt();
+            //     System.out.print(arr[i][col] +" ");
+            // }
+            // System.out.println();
         }
     }
 }
