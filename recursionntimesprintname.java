@@ -9,7 +9,7 @@ public class recursionntimesprintname {
         if(i>n){
             return;
         }else{
-        System.out.println("raunak");
+        System.out.println("use recursion to print name");
         function1(i+1, n);;
         }
         }
