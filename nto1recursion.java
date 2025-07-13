@@ -7,7 +7,8 @@ public class nto1recursion {
         int n = sc.nextInt();
         // function(n);
         // function2(1, n);
-        finalFunction(n);
+        // finalFunction(n);
+        function3(n, 1);
     }
 
     static void function(int n) {
@@ -33,6 +34,14 @@ public class nto1recursion {
         System.out.println(n);
         finalFunction(n-1);
         System.out.println(n);
+    }
+    static void function3(int n, int i){
+        if(n<1){
+            return;
+        }
+        System.out.println(n + " "+ i);
+        function3(n-1, i+1);
+        // System.out.println(n);
     }
 
 }
