@@ -1,1 +1,1 @@
-int i=0;
+function(i-2);
