@@ -7,8 +7,8 @@ public class nto1recursion {
         int n = sc.nextInt();
         // function(n);
         // function2(1, n);
-        // finalFunction(n);
-        function3(n, 1);
+        finalFunction(n);
+        // function3(n, 1);
     }
 
     static void function(int n) {
