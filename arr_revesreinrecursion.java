@@ -8,7 +8,7 @@ public class arr_revesreinrecursion {
         System.out.println("enter the element in array");
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
-        }
+        } 
         function(arr,0,n-1);
         System.out.println("the reversed array is");
         for(int i=0;i<n;i++){
