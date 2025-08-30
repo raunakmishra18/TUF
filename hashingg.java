@@ -9,7 +9,6 @@ public class hashingg {
             int n =sc.nextInt();
             int result=hashing(arr, n);
             System.out.println(result);
-
     }
     static int hashing(int arr[],int n){
         int hash=0;
@@ -20,5 +19,4 @@ public class hashingg {
         }
         return hash;
     }
-    
 }
