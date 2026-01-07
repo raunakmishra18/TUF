@@ -5,6 +5,7 @@ public class backtracking {
         Scanner sc=new Scanner(System.in);
         int input=sc.nextInt();
         function(input);
+        function2(input);
     }
     static void function(int i){
         if(i<1){
@@ -12,6 +13,14 @@ public class backtracking {
         }else{
             function(i-1);
             System.out.println(i);
+        }
+    }
+    static void function2(int input){
+        if(input<1){
+            return;
+        }else{
+            System.out.println(input);
+            function2(input-1);
         }
     }
 }
