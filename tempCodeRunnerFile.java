@@ -1,1 +1,0 @@
-palindrom_recursion
